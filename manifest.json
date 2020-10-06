@@ -1,15 +1,15 @@
 {
     "manifest_version": 2,
-    "name": "Youtube Chat Remover",
+    "name": "Youtube Chat Blocker",
     "version": "1.0",
-    "description": "Open Source Youtube Chat Remover. Feel free to review the code at: https:",
+    "description": "Open Source Youtube Chat Blocker. Feel free to review the code at: https://github.com/cjgratacos/yt-chat-blocker-ff-addon",
     "icons": {
         "48": "icons/48.png"
     },
     "content_scripts": [
         {
             "matches": [
-                "*://*.mozilla.org/*"
+                "*://*.youtube.com/*"
             ],
             "js": [
                 "borderify.js"
