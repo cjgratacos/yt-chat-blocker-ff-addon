@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Youtube Chat Remover",
+    "version": "1.0",
+    "description": "Open Source Youtube Chat Remover. Feel free to review the code at: https:",
+    "icons": {
+        "48": "icons/48.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.mozilla.org/*"
+            ],
+            "js": [
+                "borderify.js"
+            ]
+        }
+    ]
+}
